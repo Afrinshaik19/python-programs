@@ -1,0 +1,58 @@
+PROGRAM TO PRINT THE DUPLICATES FROM THE GIVEN STRING
+s=input("enter a string: ")
+res=""
+for i in s:
+    if(s.count(i)>1 and i not in res):
+        res+=i
+print(res)
+<img width="1123" height="272" alt="image" src="https://github.com/user-attachments/assets/044c2d92-f447-48c3-b644-9bc7eed4ac75" />
+PROGRAM TO PRINT ALL THE PRIME NUMBERS IN THE LIST
+def prime(n):
+    for i in range(2,n):
+        if n%i==0:
+            return 0
+    else:
+        return 1
+l=list(map(int,input().split()))
+l1=[]
+for i in l:
+    if prime(i)==1:
+        l1.append(i)
+l1.sort()
+for i in l1:
+    print(i,end=" ")
+<img width="1202" height="382" alt="image" src="https://github.com/user-attachments/assets/eba3c62f-bd69-4a60-91a7-8eb014d0543b" />
+PROGRAM TO PRINT MAX ELEMENTS IN THE LIST
+l=list(map(int,input().split()))
+max=l[0]
+for i in range(0,len(l)):
+    if l[i]>max:
+        max=l[i]
+print(max)
+<img width="1050" height="253" alt="image" src="https://github.com/user-attachments/assets/818a4ba5-b37a-44a9-804f-32a96614eda4" />
+PROGRAM TO PRINT MIN ELEMENTS IN THE LIST
+l=list(map(int,input().split()))
+min=l[0]
+for i in range(0,len(l)):
+    if l[i]<min:
+        min=l[i]
+print(min)
+<img width="1080" height="285" alt="image" src="https://github.com/user-attachments/assets/ddae87d7-49d0-4e87-9617-d93499190b5c" />
+PROGRAM TO PRINT MAX OCCURENCE OF A NUMBER IN LIST
+l=list(map(int,input().split()))
+l1=[]
+for i in l:
+    if i not in l1:
+        l1.append(i)
+max=0
+for i in l1:
+    cur=l.count(i)
+    if cur>max:
+        max=cur
+        ele=i
+print(ele)
+<img width="1185" height="325" alt="image" src="https://github.com/user-attachments/assets/a2a30f4b-6bc5-4b64-bc05-1181e2dcc246" />
+
+
+
+
