@@ -1,0 +1,38 @@
+SWAPPING TWO NUMBERS
+a = int(input())
+b = int(input())
+temp = a
+a = b
+b = temp
+print("After swapping: a =", a, ", b =", b)
+<img width="1071" height="267" alt="image" src="https://github.com/user-attachments/assets/7d183bb1-7ca6-48b3-b667-43fa48638e1f" />
+PALINDROME OR NOT IN STRING
+s=input()
+if s==s[::-1]:
+    print("palindrome")
+else:
+    print("not palindrome")
+    <img width="1094" height="245" alt="image" src="https://github.com/user-attachments/assets/fe04d130-d9fc-4b73-8042-2fa02b1dfc57" />
+GIEN NUMBER IS POSITIVE NEGAVITE OR ZERO
+    n=int(input())
+if n>0:
+    print("positive")
+elif n<0:
+   print("negative")
+else:
+    print("zero")
+    <img width="1023" height="247" alt="image" src="https://github.com/user-attachments/assets/b83d5d56-c0e8-44f5-a083-61ecc9488127" />
+    BIGGEST NUMBER AMONG THREE
+    a = int(input())
+b = int(input())
+c = int(input())
+if a > b and a > c:
+    print(a, "is big")
+elif b > c:
+    print(b, "is big")
+else:
+    print(c, "is big")
+    <img width="1063" height="324" alt="image" src="https://github.com/user-attachments/assets/84122051-fb34-4f44-ae16-3845f18b6030" />
+
+
+
