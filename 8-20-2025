@@ -1,0 +1,11 @@
+SAPPING TO NUMBERS USING THIRD VARIABLE
+a = int(input())
+b = int(input())
+temp=a
+a=b
+b=temp
+print(a);
+print(b); 
+<img width="1173" height="288" alt="image" src="https://github.com/user-attachments/assets/894f74f8-7c5e-4cb2-9a8e-ad1b7030f16c" />
+
+ 
