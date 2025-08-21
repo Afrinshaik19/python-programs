@@ -1,0 +1,15 @@
+SMALLEST AMONG THREE
+a = int(input())
+b = int(input())
+c = int(input())
+if a<=b and a<=c:
+	print("a is smallest")
+elif b<=a and b<=c:
+	print("b is smallest")
+elif c<=a and c<=b:
+	print("c is smallest")
+ <img width="1127" height="370" alt="image" src="https://github.com/user-attachments/assets/2adf0fcd-94eb-488b-ae3c-e8c7c67f14cf" />
+ SQUARE OF A NUMBER
+ num = int(input())
+print("square =",num*num)
+<img width="1032" height="169" alt="image" src="https://github.com/user-attachments/assets/ab8807e9-cc5c-409b-8d22-96c4e10013ad" />
